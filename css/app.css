@@ -1,0 +1,101 @@
+#cs-game-playground canvas {
+    display: block;
+   
+}
+
+#cs-game-wrapper {
+    width: 600px;
+    position: relative;
+    background: fuchsia;
+    color: white;
+    font-family: 'Times New Roman', serif;
+}
+
+#cs-game-status-display {
+    float:left;
+    padding: .2em;
+}
+
+#cs-game-high-score-display {
+    float: right;
+    text-align: right;
+    padding: .2em;
+}
+
+#cs-sound {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/sound-on.png);
+    background-size: contain;
+    cursor: pointer;
+    float: right;
+}
+
+
+#cs-game-playground {
+    /*display: none;*/
+/*    width: 600px;
+    height: 480px;*/
+/*    vertical-align: middle;
+    text-align: center;*/
+    position: relative;
+    clear: both;
+    /*bottom: 0;*/
+    /*z-index: 1000;*/
+}
+.cs-full-playground {
+    /*display: none;*/
+    width: 600px;
+    height: 350px;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.cs-centered-div {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    background-color: fuchsia;
+    border: 1px solid whitesmoke;
+    opacity: .9;
+    padding: .5em;
+    z-index: 1000;
+}
+
+.cs-game-title {
+    font-size: 130%;
+}
+#cs-game-wrapper p {
+    margin: .5em 0;
+}
+
+#cs-game-wrapper span {
+    font-weight: bold;
+}
+
+#cs-game-wrapper button {
+    font-family: 'Times New Roman', serif;
+    font-size: 120%;
+    color: white;
+    background: PaleVioletRed;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+}
+#cs-game-wrapper input {
+    background: PaleVioletRed;
+    font-family: 'Times New Roman', serif;
+    font-size: 120%;
+    color: white;
+}
+
+#cs-game-over {
+    font-size: 120%;
+}
+
+.cs-game-over-text {
+    font-size: 150%;
+}

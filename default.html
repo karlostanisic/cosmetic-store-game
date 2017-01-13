@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Cosmetics Store</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div id="cs-game-wrapper">
+        <div id="cs-game-info">
+            <div id="cs-game-status-display">
+                <div>Player's name: <span id="cs-player-name"></span></div>
+                <div>Cash: £<span id="cs-score"></span></div>
+                <div>Time: <span id="cs-time"></span></div>
+            </div>
+            <div id="cs-game-high-score-display">
+                <div>High score: £<span id="cs-high-score"></span></div>
+                <div>Player's name: <span id="cs-high-score-player-name"></span></div>
+                <div id="cs-sound"></div>
+            </div>
+        </div>
+        <div id="cs-game-playground">
+            <div class="cs-full-playground">
+                <div id="cs-game-start-wrapper" class="cs-centered-div">
+                    <div id="cs-game-start" class="">
+                        <div class="cs-game-title">
+                            Cosmetics Store
+                        </div>
+                        <div class='cs-game-description'>
+                            <p>In this game you are working in the store and your goal is to make as much profit as you can.
+                            <p>When customer calls you, run to her and press SPACE to serve her. After a little chat, costumer will
+                            buy product and give you money or just walk away.</p> 
+                            <p>If she gives you money, you need to go to the
+                            register and put money in it by pressing SPACE. Then, you can serve next costumer. </p>
+                            <p>Some costumers
+                            are more likely to buy something, some spend more money etc.</p> 
+                            <p>You have 3 minutes. Enter your name to begin and good luck!</p>
+                            <input id="cs-player-name-input" type="text" name='player-name' maxlength="10" size="10" placeholder="Type your name">
+                            <button id="cs-submit-player-name-btn">Play</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cs-full-playground">
+                <div id="cs-game-over-wrapper" class="cs-centered-div">
+                    <div id="cs-game-over" class="">
+                        <p class="cs-game-over-text">Game over</p>
+                        <p class='cs-game-over-score'>Your profit is £<span id="cs-game-over-score-points"></span></p>
+                        <p id='cs-game-over-high-score'>
+                            Congratulations,<br>
+                            that is new high score!
+                        </p>
+                        <button id="cs-play-again-btn">Play again</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/test.js"></script>
+    <script type="text/javascript" src="js/objects.js"></script>
+    <script type="text/javascript" src="js/resources.js"></script>
+    <script type="text/javascript" src="js/input.js"></script>
+    <script type="text/javascript" src="js/sprite.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
